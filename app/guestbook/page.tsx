@@ -1,8 +1,8 @@
-export default function Home() {
+export default function Work() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tighter">
-        hey, I&apos;m Joe 👋
+        and I have a guestbook
       </h1>
     </section>
   );
