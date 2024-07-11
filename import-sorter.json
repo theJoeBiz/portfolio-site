@@ -1,0 +1,13 @@
+{
+  "quoteMark": "double",
+  "tabSize": 2,
+  "trailingComma": "multiLine",
+  "maxLineLength": 120,
+  "groupRules": [
+    { "regex": "^react$" },
+    [{ "regex": "^[@]\\w" }, {}],
+    { "regex": "^[@/]" },
+    { "regex": "^[.]" }
+  ],
+  "keepUnused": [".*"]
+}
