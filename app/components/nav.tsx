@@ -15,10 +15,6 @@ const navItems: NavItem[] = [
     path: "/blog",
     name: "blog",
   },
-  {
-    path: "/guestbook",
-    name: "guestbook",
-  },
 ];
 
 export function Navbar() {
