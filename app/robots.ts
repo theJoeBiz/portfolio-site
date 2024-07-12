@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: "*",
       },
     ],
-    sitemap: "https://joeduchnowski.com/sitemap.xml",
-    host: "https://joeduchnowski.com",
+    sitemap: "https://joebiz.dev/sitemap.xml",
+    host: "https://joebiz.dev",
   };
 }

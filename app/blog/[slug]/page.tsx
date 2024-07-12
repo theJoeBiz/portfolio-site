@@ -26,8 +26,8 @@ export async function generateMetadata({
     image,
   } = post.metadata;
   let ogImage = image
-    ? `https://joeduchnowski.com${image}`
-    : `https://joeduchnowski.com/og?title=${title}`;
+    ? `https://joebiz.dev${image}`
+    : `https://joebiz.dev/og?title=${title}`;
 
   return {
     title,
@@ -37,7 +37,7 @@ export async function generateMetadata({
       description,
       type: "article",
       publishedTime,
-      url: `https://joeduchnowski.com/blog/${post.slug}`,
+      url: `https://joebiz.dev/blog/${post.slug}`,
       images: [
         {
           url: ogImage,
@@ -106,9 +106,9 @@ export default function BlogPostPage({ params }: { params: BlogPostParams }) {
             dateModified: post.metadata.publishedAt,
             description: post.metadata.summary,
             image: post.metadata.image
-              ? `https://joeduchnowski.com${post.metadata.image}`
-              : `https://joeduchnowski.com/og?title=${post.metadata.title}`,
-            url: `https://joeduchnowski.com/blog/${post.slug}`,
+              ? `https://joebiz.dev${post.metadata.image}`
+              : `https://joebiz.dev/og?title=${post.metadata.title}`,
+            url: `https://joebiz.dev/blog/${post.slug}`,
             author: {
               "@type": "Person",
               name: "Joe Duchnowski",

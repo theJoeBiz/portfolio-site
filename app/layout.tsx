@@ -11,7 +11,7 @@ import { cx } from "@/lib/utils";
 import { Navbar } from "./components/nav";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://joeduchnowski.com"),
+  metadataBase: new URL("https://joebiz.dev"),
   title: {
     default: "Joe Duchnowski",
     template: "%s | Joe Duchnowski",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Joe Duchnowski",
     description: "Developer, tinkerer, swings an axe well.",
-    url: "https://joeduchnowski.com",
+    url: "https://joebiz.dev",
     siteName: "Joe Duchnowski",
     locale: "en_US",
     type: "website",
